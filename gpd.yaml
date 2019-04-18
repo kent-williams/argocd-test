@@ -30,6 +30,6 @@ spec:
     app: gpd
   ports:
   - port: 50051 
-    nodePort: 30033
+    nodePort: 30090
     targetPort: gpd-service 
   type: NodePort 
