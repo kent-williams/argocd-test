@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: grpc-python-test 
-        image: k3nt/grpc-python-test 
+        image: k3nt/grpc-python-service 
         ports:
         - name: gpd-service
           containerPort: 50051 
